@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h2><i class="fa-solid fa-bars"></i> Menu</h2>
+        <ul>
+          <li>
+            <i class="fa-solid fa-house"></i><a href="#"> Página inicial</a>
+          </li>
+          <li><i class="fa-solid fa-star"></i><a href="#"> Favoritos</a></li>
+          <li><i class="fa-solid fa-coins"></i><a href="#"> Financeiro</a></li>
+          <li>
+            <i class="fa-solid fa-building"></i><a href="#"> Comercial</a>
+          </li>
+          <li><i class="fa-solid fa-print"></i><a href="#"> Relatórios</a></li>
+          <li><i class="fa-solid fa-briefcase"></i><a href="#"> Apoio</a></li>
+        </ul>
+
+        <ul class="extra-menu">
+          <li>
+            <i class="fa-solid fa-circle-question"></i><a href="#"> Ajuda</a>
+          </li>
+          <li><i class="fa-solid fa-phone"></i><a href="#"> Suporte</a></li>
+          <li>
+            <i class="fa-solid fa-person-running"></i><a href="#"> Sair</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main-content">
+        <div class="cabecalho">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Pesquisar..." />
+            <div class="user-name">
+              <p>
+                <i class="fa-solid fa-circle-user"></i> Logado como:<strong
+                  >Diego</strong
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="user-info">
+            <div class="user-details">
+              <p>
+                <i class="fa-solid fa-circle-user"></i> Seja bem vindo:
+                <strong>Diego</strong>
+              </p>
+            </div>
+            <div class="user-actions">
+              <button>Notificações</button>
+              <button>Configurações</button>
+              <button>Sair</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-area">
+          <div class="main-cards">
+            <div class="card">
+              <h3>Usuários logados</h3>
+              <p>15</p>
+            </div>
+            <div class="card">
+              <h3>Vendas no mês</h3>
+              <p>40</p>
+            </div>
+            <div class="card">
+              <h3>Novos Cadastros de clientes</h3>
+              <p>50</p>
+            </div>
+            <div class="card">
+              <h3>Receita no mês</h3>
+              <p>R$ 84.000,00</p>
+            </div>
+            <div class="card">
+              <h3>Cancelamentos de vendas</h3>
+              <p>10</p>
+            </div>
+            <div class="card">
+              <h3>Distratos no mês</h3>
+              <p>R$ 12.000,00</p>
+            </div>
+          </div>
+
+          <div class="text-info">
+            <div class="text-item">
+              <h3>Anúncios/Novidades</h3>
+              <p>
+                <br/>Confira as últimas atualizações e anúncios importantes para os
+                usuários do sistema.
+              </p>
+            </div>
+            <div class="text-item">
+              <h3>Status do Sistema</h3>
+              <p>
+                <br/>Tudo está funcionando normalmente. Nenhum problema reportado nas
+                últimas 24 horas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
